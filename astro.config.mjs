@@ -4,6 +4,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://help.schooltendance.com",
   integrations: [
     starlight({
       title: "Schooltendance Help Centre",
