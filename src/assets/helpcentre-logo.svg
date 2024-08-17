@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2179px" height="220px" viewBox="0 0 2179 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Schooltendance Help Centre@1x</title>
+    <g id="Schooltendance-Help-Centre" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(22, 27)">
+            <rect id="Rectangle" stroke="#13747A" stroke-width="9" fill="#FFFFFF" x="4.5" y="4.5" width="1186" height="157" rx="27"></rect>
+            <rect id="Rectangle" stroke="#FF7070" fill="#FF7070" x="18.5" y="18.5" width="447" height="129" rx="18"></rect>
+            <text id="SCHOOL" font-family="Krungthep" font-size="125" font-weight="bold" letter-spacing="-13" fill="#FFFFFF">
+                <tspan x="33.5" y="131">SC</tspan>
+                <tspan x="163.75" y="131" letter-spacing="-9.5">HOOL</tspan>
+            </text>
+            <text id="TENDANCE" font-family="Georgia" font-size="133" font-weight="normal" letter-spacing="-4" fill="#13747A">
+                <tspan x="479.5" y="131">TEN</tspan>
+                <tspan x="738.695312" y="131" letter-spacing="-14.5">D</tspan>
+                <tspan x="823.81543" y="131">A</tspan>
+                <tspan x="913.044922" y="131">NCE</tspan>
+            </text>
+        </g>
+        <text id="HELP-CENTRE-Copy" font-family="DINCondensed-Bold, DIN Condensed" font-size="233" font-style="condensed" font-weight="bold" letter-spacing="-7.0075188" fill="#FF7070">
+            <tspan x="1264.95935" y="193">HELP CENTRE</tspan>
+        </text>
+    </g>
+</svg>

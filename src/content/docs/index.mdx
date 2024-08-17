@@ -1,36 +1,35 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Welcome to our Help Centre
+description: Find answers and get help with anything on Schooltendance.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Get solutions to any issues you run into!
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Get Started
+      link: /start_here/getting_started
       icon: right-arrow
       variant: primary
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid } from "@astrojs/starlight/components";
 
 ## Next steps
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="Sign Up" icon="external">
+    Sign up for an account here —
+    [schooltendance.com](https://schooltendance.com/signup).
+  </Card>
+  <Card title="Getting Started" icon="open-book">
+    If you need help getting started, [start here](/start_here/getting_started).
+  </Card>
+  <Card title="Invite Users" icon="open-book">
+    Learn more in the [Inviting Staff Guide](/guides/invite_staff_members).
+  </Card>
+  <Card title="Configure your account settings" icon="setting">
+    Learn more about configuring and customizing your account settings
+    [here](/guides/customise_account_settings).
+  </Card>
 </CardGrid>
