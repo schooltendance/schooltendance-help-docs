@@ -1,0 +1,24 @@
+---
+import type { Props } from "@astrojs/starlight/props";
+import Default from "@astrojs/starlight/components/Footer.astro";
+
+const isHomepage = Astro.props.slug === "";
+const year = new Date().getFullYear();
+---
+
+{
+  isHomepage ? (
+    <footer class="text-center">
+      Built with ♥️ in Hyderabad, India.<br /> 
+      &copy; {year} Kishnine Technologies Private Limited.
+    </footer>
+  ) : (
+    <Default {...Astro.props}>
+      <slot />
+    </Default>
+    <footer class="text-center">
+      Built with ♥️ in Hyderabad, India.<br /> 
+      &copy; {year} Kishnine Technologies Private Limited.
+    </footer>
+  )
+}

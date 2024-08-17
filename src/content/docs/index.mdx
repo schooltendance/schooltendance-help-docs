@@ -1,0 +1,35 @@
+---
+title: Welcome to our Help Centre
+description: Find answers and get help with anything on Schooltendance.
+template: splash
+hero:
+  tagline: Get solutions to any issues you run into!
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Get Started
+      link: /start_here/getting_started
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+## Next steps
+
+<CardGrid stagger>
+  <Card title="Sign Up" icon="external">
+    Sign up for an account here —
+    [schooltendance.com](https://schooltendance.com/signup).
+  </Card>
+  <Card title="Getting Started" icon="open-book">
+    If you need help getting started, [start here](/start_here/getting_started).
+  </Card>
+  <Card title="Invite Users" icon="open-book">
+    Learn more in the [Inviting Staff Guide](/guides/invite_staff_members).
+  </Card>
+  <Card title="Configure your account settings" icon="setting">
+    Learn more about configuring and customizing your account settings
+    [here](/guides/customise_account_settings).
+  </Card>
+</CardGrid>
